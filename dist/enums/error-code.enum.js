@@ -9,10 +9,12 @@ var ErrorCode;
     ErrorCode["UNAUTHORIZED"] = "UNAUTHORIZED";
     ErrorCode["FORBIDDEN"] = "FORBIDDEN";
     ErrorCode["INTERNAL_SERVER_ERROR"] = "INTERNAL_SERVER_ERROR";
+    ErrorCode["UKNOWN_ERROR"] = "UNKNOWN_ERROR";
     // User-related errors
     ErrorCode["USER_NOT_FOUND"] = "USER_NOT_FOUND";
     ErrorCode["USER_ALREADY_EXISTS"] = "USER_ALREADY_EXISTS";
     ErrorCode["INVALID_CREDENTIALS"] = "INVALID_CREDENTIALS";
+    ErrorCode["TOO_MANY_ATTEMPTS"] = "TOO_MANY_ATTEMPTS";
     // Product-related errors
     ErrorCode["PRODUCT_NOT_FOUND"] = "PRODUCT_NOT_FOUND";
     ErrorCode["PRODUCT_OUT_OF_STOCK"] = "PRODUCT_OUT_OF_STOCK";
