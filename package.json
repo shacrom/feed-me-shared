@@ -1,0 +1,19 @@
+{
+  "name": "@feedme/shared",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": ["dto", "typescript", "shared", "nestjs", "angular"],
+  "author": "Marcos Miguel Báscones",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
