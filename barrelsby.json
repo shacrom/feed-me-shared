@@ -1,0 +1,6 @@
+{
+  "directory": "./src",
+  "exclude": ["dist", "node_modules"],
+  "delete": true,
+  "structure": "flat"
+}
